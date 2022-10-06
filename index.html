@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Swiggy Clone</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;800&display=swap"
+            rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="main-container">
+            <!---Navbar Section-->
+            <header class="navbar">
+                <div class="global-nav">
+                    <div class="nav">
+                        <div class="left">
+                            <a href="#home" class="logo">
+                                <svg class="_8pSp-" viewBox="0 0 559 825"
+                                    height="49" width="34" fill="#fc8019">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd" d="M542.92
+                                        388.542C546.805 366.526
+                                        542.355 349.598 530.881 340.76C513.621
+                                        327.466 487.698 320.236 425.954
+                                        320.236C380.271 320.236 331.225 320.286
+                                        310.268 320.275C308.322 319.894 301.285
+                                        317.604 301.02 309.112L300.734
+                                        174.289C300.727 165.779 307.531 158.857
+                                        315.943 158.839C324.369 158.825 331.204
+                                        165.723 331.211 174.226C331.211 174.226
+                                        331.421 247.414 331.441 273.424C331.441
+                                        275.936 332.892 281.8 338.549
+                                        283.328C375.43 293.267 561.865 285.999
+                                        558.967 251.804C543.147 109.96 424.476 0
+                                        280.394 0C235.021 0 192.065 10.9162
+                                        154.026 30.2754C62.9934 77.5955 -1.65904
+                                        173.107 0.0324268 283.43C1.23215 361.622
+                                        52.2203 500.605 83.434 521.234C97.8202
+                                        530.749 116.765 527.228 201.484
+                                        527.228C239.903 527.228 275.679 527.355
+                                        293.26 527.436C295.087 527.782 304.671
+                                        530.001 304.671 538.907L304.894
+                                        641.393C304.915 649.907 298.104 656.826
+                                        289.678 656.829C281.266 656.843 274.434
+                                        649.953 274.42 641.446C274.42 641.446
+                                        275.17 600.322 275.17 584.985C275.17
+                                        581.435 275.424 575.339 265.178
+                                        570.727C231.432 555.553 121.849 564.712
+                                        115.701 581.457C113.347 587.899 125.599
+                                        612.801 144.459 644.731C170.102 685.624
+                                        211.889 747.245 245.601 792.625C261.047
+                                        813.417 268.77 823.813 280.467
+                                        824.101C292.165 824.389 300.514 814.236
+                                        317.213 793.928C383.012 713.909 516.552
+                                        537.663 542.92 388.542Z"
+                                        fill="url(#paint0_linear_19447_66107)">
+                                    </path>
+                                    <defs>
+                                        <linearGradient
+                                            id="paint0_linear_19447_66107"
+                                            x1="445.629" y1="63.8626"
+                                            x2="160.773" y2="537.598"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF993A"></stop>
+                                            <stop offset="1"
+                                                stop-color="#F15700"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <div class="location-div">
+                                <span class="other">Other</span>
+                                <span class="location">Ujjain,Madhya
+                                    Pradesh,India</span>
+                                <span class="arrow-down">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <ul class="items">
+                                <li>
+                                    <div class="nav-item">
+                                        <a href="">
+                                            <svg class="_1GTCc" viewBox="5 -1 12
+                                                25" height="17" width="17"
+                                                fill="#686b78">
+                                                <path d="M17.6671481,17.1391632
+                                                    L22.7253317,22.1973467
+                                                    L20.9226784,24
+                                                    L15.7041226,18.7814442
+                                                    C14.1158488,19.8024478
+                                                    12.225761,20.3946935
+                                                    10.1973467,20.3946935
+                                                    C4.56550765,20.3946935
+                                                    0,15.8291858 0,10.1973467
+                                                    C0,4.56550765 4.56550765,0
+                                                    10.1973467,0 C15.8291858,0
+                                                    20.3946935,4.56550765
+                                                    20.3946935,10.1973467
+                                                    C20.3946935,12.8789625
+                                                    19.3595949,15.3188181
+                                                    17.6671481,17.1391632 Z
+                                                    M10.1973467,17.8453568
+                                                    C14.4212261,17.8453568
+                                                    17.8453568,14.4212261
+                                                    17.8453568,10.1973467
+                                                    C17.8453568,5.97346742
+                                                    14.4212261,2.54933669
+                                                    10.1973467,2.54933669
+                                                    C5.97346742,2.54933669
+                                                    2.54933669,5.97346742
+                                                    2.54933669,10.1973467
+                                                    C2.54933669,14.4212261
+                                                    5.97346742,17.8453568
+                                                    10.1973467,17.8453568 Z"></path>
+                                            </svg>
+                                            <span>Search</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav-item">
+                                        <a href="">
+                                            <svg class="_1GTCc" viewBox="0 0 32
+                                                32" height="19" width="19"
+                                                fill="#686b78">
+                                                <path d="M14.2
+                                                    2.864l-1.899 1.38c-0.612
+                                                    0.447-1.35 0.687-2.11
+                                                    0.687h-2.352c-0.386 0-0.727
+                                                    0.248-0.845 0.613l-0.728
+                                                    2.238c-0.235 0.721-0.691
+                                                    1.348-1.302 1.79l-1.905
+                                                    1.385c-0.311 0.226-0.442
+                                                    0.626-0.323 0.991l0.728
+                                                    2.241c0.232 0.719 0.232
+                                                    1.492-0.001 2.211l-0.727
+                                                    2.237c-0.119 0.366 0.011
+                                                    0.767 0.323 0.994l1.906
+                                                    1.384c0.61 0.445 1.064 1.070
+                                                    1.3 1.79l0.728 2.24c0.118
+                                                    0.365 0.459 0.613 0.844
+                                                    0.613h2.352c0.759 0 1.497
+                                                    0.24 2.107 0.685l1.9
+                                                    1.381c0.313 0.227 0.736
+                                                    0.227 1.048
+                                                    0.001l1.9-1.38c0.613-0.447
+                                                    1.349-0.687
+                                                    2.11-0.687h2.352c0.384 0
+                                                    0.726-0.248
+                                                    0.845-0.615l0.727-2.235c0.233-0.719
+                                                    0.688-1.346
+                                                    1.302-1.794l1.904-1.383c0.311-0.226
+                                                    0.442-0.627
+                                                    0.323-0.993l-0.728-2.239c-0.232-0.718-0.232-1.49
+                                                    0.001-2.213l0.727-2.238c0.119-0.364-0.012-0.765-0.324-0.992l-1.901-1.383c-0.614-0.445-1.070-1.074-1.302-1.793l-0.727-2.236c-0.119-0.366-0.461-0.614-0.845-0.614h-2.352c-0.76
+                                                    0-1.497-0.239-2.107-0.685l-1.903-1.382c-0.313-0.227-0.736-0.226-1.047-0.001zM16.829
+                                                    0.683l1.907 1.385c0.151 0.11
+                                                    0.331 0.168 0.521
+                                                    0.168h2.352c1.551 0 2.927 1
+                                                    3.408 2.475l0.728
+                                                    2.241c0.057 0.177 0.169
+                                                    0.332 0.321 0.442l1.902
+                                                    1.383c1.258 0.912 1.784
+                                                    2.531 1.304 4.006l-0.726
+                                                    2.234c-0.058 0.182-0.058
+                                                    0.375-0.001 0.552l0.727
+                                                    2.237c0.48 1.477-0.046
+                                                    3.096-1.303 4.007l-1.9
+                                                    1.38c-0.153 0.112-0.266
+                                                    0.268-0.324 0.447l-0.727
+                                                    2.237c-0.48 1.477-1.856
+                                                    2.477-3.408
+                                                    2.477h-2.352c-0.19 0-0.37
+                                                    0.058-0.523 0.17l-1.904
+                                                    1.383c-1.256 0.911-2.956
+                                                    0.911-4.213-0.001l-1.903-1.384c-0.15-0.11-0.332-0.168-0.521-0.168h-2.352c-1.554
+                                                    0-2.931-1.001-3.408-2.477l-0.726-2.234c-0.059-0.18-0.173-0.338-0.324-0.448l-1.902-1.381c-1.258-0.912-1.784-2.53-1.304-4.008l0.727-2.235c0.058-0.179
+                                                    0.058-0.373
+                                                    0.001-0.551l-0.727-2.236c-0.481-1.476
+                                                    0.046-3.095
+                                                    1.302-4.006l1.905-1.385c0.151-0.11
+                                                    0.264-0.265
+                                                    0.323-0.444l0.727-2.235c0.478-1.476
+                                                    1.855-2.477
+                                                    3.408-2.477h2.352c0.189 0
+                                                    0.371-0.059
+                                                    0.523-0.17l1.902-1.383c1.256-0.911
+                                                    2.956-0.911 4.212 0zM18.967
+                                                    23.002c-1.907
+                                                    0-3.453-1.546-3.453-3.453s1.546-3.453
+                                                    3.453-3.453c1.907 0 3.453
+                                                    1.546 3.453 3.453s-1.546
+                                                    3.453-3.453 3.453zM18.967
+                                                    20.307c0.419 0 0.758-0.339
+                                                    0.758-0.758s-0.339-0.758-0.758-0.758c-0.419
+                                                    0-0.758 0.339-0.758
+                                                    0.758s0.339 0.758 0.758
+                                                    0.758zM10.545 14.549c-1.907
+                                                    0-3.453-1.546-3.453-3.453s1.546-3.453
+                                                    3.453-3.453c1.907 0 3.453
+                                                    1.546 3.453 3.453s-1.546
+                                                    3.453-3.453 3.453zM10.545
+                                                    11.855c0.419 0 0.758-0.339
+                                                    0.758-0.758s-0.339-0.758-0.758-0.758c-0.419
+                                                    0-0.758 0.339-0.758
+                                                    0.758s0.339 0.758 0.758
+                                                    0.758zM17.78 7.882l2.331
+                                                    1.352-7.591
+                                                    13.090-2.331-1.352
+                                                    7.591-13.090z"></path>
+                                            </svg>
+                                            <span>Offers</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav-item">
+                                        <a href="">
+                                            <svg class="_1GTCc" viewBox="6 -1 12
+                                                25" height="19" width="19"
+                                                fill="#686b78">
+                                                <path d="M21.966903,13.2244898
+                                                    C22.0156989,12.8231523
+                                                    22.0408163,12.4145094
+                                                    22.0408163,12
+                                                    C22.0408163,11.8357822
+                                                    22.036874,11.6724851
+                                                    22.029079,11.5101984
+                                                    L17.8574333,11.5102041
+                                                    C17.8707569,11.6717062
+                                                    17.877551,11.8350597
+                                                    17.877551,12
+                                                    C17.877551,12.4199029
+                                                    17.8335181,12.8295214
+                                                    17.749818,13.2244898
+                                                    L21.966903,13.2244898 Z
+                                                    M21.5255943,15.1836735
+                                                    L16.9414724,15.1836735
+                                                    C15.8950289,16.8045422
+                                                    14.0728218,17.877551
+                                                    12,17.877551
+                                                    C9.92717823,17.877551
+                                                    8.1049711,16.8045422
+                                                    7.05852762,15.1836735
+                                                    L2.47440565,15.1836735
+                                                    C3.80564362,19.168549
+                                                    7.56739481,22.0408163
+                                                    12,22.0408163
+                                                    C16.4326052,22.0408163
+                                                    20.1943564,19.168549
+                                                    21.5255943,15.1836735 Z
+                                                    M21.7400381,9.55102041
+                                                    C20.6468384,5.18931674
+                                                    16.7006382,1.95918367
+                                                    12,1.95918367
+                                                    C7.2993618,1.95918367
+                                                    3.3531616,5.18931674
+                                                    2.25996187,9.55102041
+                                                    L6.6553883,9.55102041
+                                                    C7.58404845,7.5276442
+                                                    9.62792376,6.12244898
+                                                    12,6.12244898
+                                                    C14.3720762,6.12244898
+                                                    16.4159515,7.5276442
+                                                    17.3446117,9.55102041
+                                                    L21.7400381,9.55102041 Z
+                                                    M2.03309705,13.2244898
+                                                    L6.25018203,13.2244898
+                                                    C6.16648186,12.8295214
+                                                    6.12244898,12.4199029
+                                                    6.12244898,12
+                                                    C6.12244898,11.8350597
+                                                    6.1292431,11.6717062
+                                                    6.14256675,11.5102041
+                                                    L1.97092075,11.5102041
+                                                    C1.96312595,11.6724851
+                                                    1.95918367,11.8357822
+                                                    1.95918367,12
+                                                    C1.95918367,12.4145094
+                                                    1.98430112,12.8231523
+                                                    2.03309705,13.2244898 Z
+                                                    M12,24 C5.372583,24
+                                                    0,18.627417 0,12 C0,5.372583
+                                                    5.372583,0 12,0 C18.627417,0
+                                                    24,5.372583 24,12
+                                                    C24,18.627417 18.627417,24
+                                                    12,24 Z M12,15.9183673
+                                                    C14.1640545,15.9183673
+                                                    15.9183673,14.1640545
+                                                    15.9183673,12
+                                                    C15.9183673,9.83594547
+                                                    14.1640545,8.08163265
+                                                    12,8.08163265
+                                                    C9.83594547,8.08163265
+                                                    8.08163265,9.83594547
+                                                    8.08163265,12
+                                                    C8.08163265,14.1640545
+                                                    9.83594547,15.9183673
+                                                    12,15.9183673 Z"></path>
+                                            </svg>
+                                            <span>Help</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav-item">
+                                        <a href="">
+                                            <svg class="_1GTCc" viewBox="6 0 12
+                                                24" height="19" width="18"
+                                                fill="#686b78">
+                                                <path d="M11.9923172,11.2463768
+                                                    C8.81761115,11.2463768
+                                                    6.24400341,8.72878961
+                                                    6.24400341,5.62318841
+                                                    C6.24400341,2.5175872
+                                                    8.81761115,0 11.9923172,0
+                                                    C15.1670232,0
+                                                    17.740631,2.5175872
+                                                    17.740631,5.62318841
+                                                    C17.740631,8.72878961
+                                                    15.1670232,11.2463768
+                                                    11.9923172,11.2463768 Z
+                                                    M11.9923172,9.27536232
+                                                    C14.0542397,9.27536232
+                                                    15.7257581,7.64022836
+                                                    15.7257581,5.62318841
+                                                    C15.7257581,3.60614845
+                                                    14.0542397,1.97101449
+                                                    11.9923172,1.97101449
+                                                    C9.93039471,1.97101449
+                                                    8.25887628,3.60614845
+                                                    8.25887628,5.62318841
+                                                    C8.25887628,7.64022836
+                                                    9.93039471,9.27536232
+                                                    11.9923172,9.27536232 Z
+                                                    M24,24 L0,24
+                                                    L1.21786143,19.7101449
+                                                    L2.38352552,15.6939891
+                                                    C2.85911209,14.0398226
+                                                    4.59284263,12.7536232
+                                                    6.3530098,12.7536232
+                                                    L17.6316246,12.7536232
+                                                    C19.3874139,12.7536232
+                                                    21.1256928,14.0404157
+                                                    21.6011089,15.6939891
+                                                    L22.9903494,20.5259906
+                                                    C23.0204168,20.63057
+                                                    23.0450458,20.7352884
+                                                    23.0641579,20.8398867 L24,24
+                                                    Z M21.1127477,21.3339312
+                                                    L21.0851024,21.2122487
+                                                    C21.0772161,21.1630075
+                                                    21.0658093,21.1120821
+                                                    21.0507301,21.0596341
+                                                    L19.6614896,16.2276325
+                                                    C19.4305871,15.4245164
+                                                    18.4851476,14.7246377
+                                                    17.6316246,14.7246377
+                                                    L6.3530098,14.7246377
+                                                    C5.4959645,14.7246377
+                                                    4.55444948,15.4231177
+                                                    4.32314478,16.2276325
+                                                    L2.75521062,21.6811594
+                                                    L2.65068631,22.0289855
+                                                    L21.3185825,22.0289855
+                                                    L21.1127477,21.3339312 Z"></path>
+                                            </svg>
+                                            <span>Sign in</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav-item">
+                                        <a href="">
+                                            <svg class="_1GTCc _2MSid"
+                                                viewBox="-1 0 37 32" height="20"
+                                                width="20"
+                                                fill="#686b78">
+                                                <path d="M4.438 0l-2.598
+                                                    5.11-1.84
+                                                    26.124h34.909l-1.906-26.124-2.597-5.11z"></path>
+                                            </svg>
+                                            <span>Cart</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!----Content Section--->
+            <main class="content-section">
+                <section class="restaurants">
+                    <div class="container">
+                        <div class="item-bar">
+                            <div class="number">1473 Restaurants</div>
+                            <div class="filters">
+                                <div class="relevance">Relevance</div>
+                                <div class="delivery">Delivery Time</div>
+                                <div class="rating">Rating</div>
+                                <div class="cost-lh">Cost: Low To High</div>
+                                <div class="cost-hl">Cost: High To Low</div>
+                            </div>
+                        </div>
+                        <div class="restaurant-list">
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yajybzuetfdot8dndli4">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Circle Cafe</div>
+                                                <div class="food-items"
+                                                    title="Pizza,Burger,Desserts,Cold-Drinks,Sandwich">
+                                                    Pizza, Burger, Desserts,
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">50% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="La Pino'z Pizza"
+                                                    width="254" height="160"
+                                                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/d1768t1xetdxg6wj3x6y">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">La Pino'z
+                                                    Pizza</div>
+                                                <div class="food-items"
+                                                    title="Pizza">
+                                                    Pizza, Burger,
+                                                    Cold-Drinks
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>4.3</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>30 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.270 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">30% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxAJcSQRs2u2vkyS5GoKLm66Op0CqWt0rjg&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Burger Buddy</div>
+                                                <div class="food-items"
+                                                    title="Burger,Cold-Drinks,Sandwich">
+                                                    Burger,French-Fries
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.5</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>45 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR Two</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">50% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8WSeInUzJcVzSudlQvGDvbAOcozSDan5oQ&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Shivalay
+                                                    Restaurant</div>
+                                                <div class="food-items"
+                                                    title="Thali">
+                                                    Rice, Jeera Rice, Roti,
+                                                    Daal, Panee, Shahi Paneer
+                                                    and many more.....
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.3</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>25 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.250 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">40% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZVH48rs3hBryNV37ULGt2wqfNh2q-MJsTA&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Raj Restaurant</div>
+                                                <div class="food-items"
+                                                    title="Shahi Paneer,Sev
+                                                    Tamatar">
+                                                    Shahi Paneer
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.0</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>40 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.220 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">60% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="data:image/jpeg;base64,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">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Pizza Hut</div>
+                                                <div class="food-items"
+                                                    title="Pizza,Burger,Sandwich">
+                                                    Pizza, Burger, ,
+                                                    Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>4.3</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>30 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.230 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">30% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2RZXKb3IMl9yBWTncM5eAkGWPr2yExpMXA&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Dominos</div>
+                                                <div class="food-items"
+                                                    title="Pizza,Burger,Desserts,Cold-Drinks,Sandwich">
+                                                    Pizza, Burger, Desserts,
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">35% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhlupJAcc5oA8GYi5zh9Jf_Hjl3psypt8ASQ&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Burger Land</div>
+                                                <div class="food-items"
+                                                    title="Burger,Cold-Drinks,Sandwich">
+                                                    Burger,
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>4.1</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.90 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">40% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBUVEhcVFRUYGBcZGSAcGhoaGR0dIR0cHR0fISUcIx0dHysjHB0oHx0fJTUmKC0xMjIyGiE3PDcxOysxMi4BCwsLDw4PHRERHTEpIyk1NDExNjExMTExLjExMTEzMTExMTExMTEzMTExMTExMTExMzExMTExMTExMTMxMTExMf/AABEIANAA8gMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgABB//EAEIQAAECAwYDBgMFBwMEAwEAAAECEQADIQQFEjFBUSJhcQYTgZGh8DKxwSNCUtHhFBUzYnKC8QeSolOywtIWJEOj/8QAGgEAAgMBAQAAAAAAAAAAAAAAAwQAAQIFBv/EAC8RAAICAQMCBQMDBAMAAAAAAAECABEDEiExBEETIlFhgXGhsTKR0QUUwfA0UuH/2gAMAwEAAhEDEQA/APmSqvt5tEgjkCB0976mKMWVD+re/KLEkvm3mdc/lB4KX+dC9PCPUIqemz+6at+cU4zizZ8qa9Xi3uiwfLmKOzeUSXJGQKhyxzGVOnvSOUmjkqxEUpz6e6xZKXn67102jiXSAQKU6CJIBKVlhhOf13iUpR3etXFPHaJkJcgMXPPLz+kSlIpkzKq5fNtX3+kSXW887ujPno7jy6ZGPJQLMcwKNqKh6HP8oMRKUaDPQijPoGBcxO0TJcsnGtyfuIqf7tE0zevKMM4XmaCFuJSbPkSoKBJFfyb34wRPsJThW7JAzKgln2Kmc6wBPvwkMgYeY+L/AHZv0aF67a5cuTuSSfM5wM5CeBDDD6mP565QzW/NiSPMJBHQwJaLxlJyStba8KemhaEqytRdj4xDuVHMgRRL8mE8MAcGNzfSRlLr/WK//wA4q/fCP+kQNhMDaaYOUAGy7qiEyyF2Bf3pvGRk95k4/aNTeUlX3VppkwVV88x6RYJstQITMSaZHhc1P3mGZ55xG7Oyk+ZU8Cf5hX/bp4kQ5l9l7LL/AIk5zqH+iajziHMB3m16Z27VFMyQUVKaEuCA79DrEDLUCwBLDNmG8aKyyrvlHgmKSdWUpj1GJj4iJGy2OYXStIOVGZumXlEGcd5Z6JuxExV45EsR1hlZ5iAgGqQ2h5a6+cM737MzCgqllMwNpyHzhbZ7OtKWVLNBUMH8XoREbIDxAnE6HcSeJJ+FQVzTT/MVzZm7AEUBo3TIexEVyU5ij7fpFNoxpSHUSGdjXPnpFAzJFTxc44gBTcmrBncF9A5eDLrseMhakuVF0g5JTkCX95mE9kqpdK4CKaOQn5GNVctoSlwVJBKiA40yFfCkD6hiqeWAyGMbJZcJHCx9TzJ1i+0SAV8RejZtFi5gxAgMKMXoR9RA9oRMEwYSACNi+WYeOU1nvF7MW3pZwqikgNkQKH9GjKXlY1IOIAgGo/zyjeWpBoCNK0aF953ekoJUSAz0rTyzhjp8+k0ZtHozLJvRbZj/AHGOgAx0dbVGIzCfJ49TLfXwiZQQfu7V9+MVqUgauaPpG2cKIImpKWtszSL0TXGQrnXTOlIGE1B/EOhB/wAxcmSFfBMSTseHwrSMDMO+0zq9ZZZbOgBwquoJHoxgkhxXIdPpFAsq8FUlPM5V1xDLTOLbvKkqGJJIqDq43zfyjYZTwYRWvieTZZwgUJ+nWDLHJCk4lFg+e55B6n9KiPUygEFdSl6JBfE9B0D650YbiyUiYpQCEPMagOSR70z+cZZidljGPHq3PEpvC092nu5fCW4lE8THQqyT0Hi8IJSVKLID89I2snsOV1mzqmpAbPxj209khLXLloWJkxfwhqJSGxLUK8IyzqSBrAWxuNyIwNI2mdTdSUy1LmK4kh8GVTkG95w57NdnEqAmzUMD8KG+mZh9fnZ+VJs6ULUpS1TEAVapUHYDMs58I1N2pQmWFAAZgckpo0Hw4ivmbmaLUtiIZVllpDGUpKRqUMIWXx2bRMkCdKQUkpxYWqxD5Pm2gjWWy8pSkTUpmIKkoJICg44SYKucpElILMlIryaDh94PHkZGufPbguizzJJK0stBwqD+RGrH6GLp8qzWXjKeL7oNVN/4iDL0tUuT3kxCQCpRwgjQZHpGXs4MybjnOcVQnPz9DHKysuoleI65x4TZ78e0stNvtNoogYEbCg/WIy+z6iONRJ6+zDld4ypTJJZTVABOppTWGKbyl4fs1jEqlA7FtR94PrlWE9WZj6fmVq1i7mHvK5lJwJSg4lFvbq5iLpfZtYTxAgv7rkY0V53ilYAWAiYCeMGjAfEMJcGuR55w2uuTOoTMlrQrd1FtioZqz4vQxtsmQJV7/mKnUmTfcTAj9okKdC1U9+MObtvuVP8As56cC9JgoX5w7vywDEFJDpBYoYnQ1po7RnL7uIgYslDUfQ6iJj6lSBqI39P8xgFrIInl93SqWeIYkmqVDUciIzFtSUUBpzzjW9m73xD9mn1H3TsdwYX9prnMonExAIYg6F838316uzqtvF82KhqXiZ271HvG1U4D/iILf8mjQ2S0S5c8KIAQqr5s4BB97xmJ9DR6a6+kPrstctSSZiXUOVQX32LuOZI2e8y6liGRZqkThNcJXTShD66jpA021LQvArNJzzBDbZwLZrVMK092hkjen9zcole6SkCYoEnLEa15flHM070YAiEzUrJUtFQKvpTaFk21qUSmerCwcIGSm31NatQR6i/cKQlIrkwFa79fSAr1tONOBSUiYqpL/Akb7e+UFxYm1UR/MtVmfnqBUo7knzMdBolp/wCmo82NY6OppHrD0ZUUFZfyio2brByAcg7nIDXo2cPrq7NTFsqYru07feP/AK+NYt8iILaUdpkjZToY4SFDIx9RsNx2UEJ7oKGqlEqPvlGf7T3amTaCEBkLDpHzECXNjc0JQJMzNm7+WXS4PImHl2z1zHVMlppQGqSpQbPCwIGpPIdLLOEtU0AdRzIA5a7Dm0C3paVFDtgTkEjQaB9T9TzisulSKG8LjwKx1EcRrd00zJyJSCFTD8Sj8KAMy2rCg8I2k6xJloSJQAehVrTMk6mPnXYxXdTitVMSCkPoSQQOZJAHiI+i3pbFSbMpQKcaZiWxPXEwIpXUwbEQATGSa5gXaKfZ5CUfeUAXqxc5FROTkMOsHdjpRTZzPWkmdNqQdB91Cc+AAu+rkxjpNqVNmgLU6lqxLP8ALSnIDKPpVvu4rloShWFSQ6duhG2nKKwZGykkigOIJHOTc8RF2isKpstC1DDNlqxJIqlRrSuWbty1gqx2aYLMAsBcwEnCnI4ss9HzPOGFmWFyWmHM4XVQg7HmN4qsNimSgMWKYtb4pmgSMgGoNGA5mGStG4wRtv2mfm3IiTZ5sy0FHeTHNHPEckgZliYjZ7RLVKQZc1S3SMadEkAEjJ86NDLtKkCdKcfC1SNkua70jL2dbSCpgCslVG++o/Ro5mfLpdgBN9OfEzUewuDrSqfaASnFLB+GtWyGWWpgm80IUpTYkrQKA0BDZDdvXTSHV0yhLkh01LHKta+VYjf0uWDLWHQspLMMTKHMsQDn4GOSnVFsmmth/tzefpjkYte54ie7LVMSh50oGWRngZaC7By4Bq+cFd6JSO8CEpUtKkklLDCobJyOzHOIifiQoF1LdKMZD4gc+mZrpWLL0mhEohQCQCOJRDZiofXpWDZMzNkULCYcYxoRcV26WlciVMClrBUOAqVhQouHClA1HjTpB6bLNDYluA2F6+ho0IbHbVDEiQlS6/GHSlqfiO+jQ1tsq1KlDFMwKSArDLTUBgcWLMiukMZMOXIQF2HeTEAxJZf37xxYp0wEpUlSgclEM2eY1GTERVbrUgnu1IamdXUeQ0HPnGcnIkoWEzJ6yoYSS6yku78wWZQahBaFt42uUlSP2UzQuuIlRYlqYQCSz7wIf08BibEvOCVsGoVfN2qAExIqKsNvekM5yzaLDjFZsoZGuJGqDuPzfQQ1nWZS5IKxxFIemrfrCbswTLVNQcgSk9CKegMX0uYtankTKrY0nvMfbJKVJ7xHwksxNUq/Cd9wdRzBABlrUlTgsR7bmOUMrUruLQtLOgllJ3Sa02Ieh3EVW6ytUF0kOlQ1ByPzBGhBGkdQNwZzXSiRC7JfZCcJJSTrUjruP+WdGi2Xa0qrMmYm+HCoBq64mPpGeUI4B4o40O9QJQTRzr2ADIIxfiAxL8CwSOrmAlopWlajMk6Eq18KfOBbJZSTz96Q9kWfEnCrzHy/SKAVdlE0qARfgVt6CPYP/dvvDHRm5ujNJc92S5I4eJf4zn0H4RDZCCBXyiQQJefEvXZPTcxSmYYRYH9Tmz+IAAwpBypSM7/qLMGKUnUAmNJYyQ61FkjnGEvG1G02tSkjElNEjN2LDzUfJzF9OPNqhAL2EOu+VKRLSpdVPiCdMqOOTnxPKI2f/wCxNTiDSwsJHMkhzsc28YOtllVLs6JaOKZMIBUcyVZ+EOLw7PiVZ0qkgkywkqGqikhRUBua05w2dTN9KuOLpUARbeFzpkKUVB8KkqT/AEuCPKr7mBu1d4mZPKEn7NCiAPxKZifDIeO8a/tauWbMiYC5CXA3KqJB/ubweMf2fuZU2ckKPAiqjupn+rnwjJxsrHGOCftE87l6UfMlarrVJsyJjDvZqxXYEFh7zMba2WuYLNZbRhUVIIExKcziSxSRsS2fKCbdZ5ajKQwOCoH4dMXgKdTC6VekzvpktEsrkrDA0YKQ7qBzdwM6HCKw8iBBtxGsa+UAdoZaaWpKPur4wOoKVPvT5xXZZ0xKiELIGMgDMMNWNc+cQM+sq0KIZElYPNaikJHoqsW3ar7JKte7fxzMGDAiFuhM12lvKZMTNKsLIcJpU5gnMtl6wvlo+wlj+SUP+KYAvBcwWc4i5mAqB8y3SsH3crFIlq3koJ/sAf8A7DHG6lg1svsPtL6H/kP9I+tLhKGU4cAj8PnmnpCrtDakoXjmLAZgK6EVZOZOVKax3abtAiSpMuWXWwdVDhCtNsXyjMpvlAXjMpClHMzFYlZZhWQ6BMJ9L0lnU4jbOaoGoWm1qUsqlIwAsO8WM6nJPjqYtRZ5aVrNomHGEukrOb5gJAzG0K7db5s8hMtB2wpBArzLOdMorl3ZPUtWNHFh+HEQRzpUttnyMdMJjXgQLZkxi+T6w2bfwQkIQMLFXGTmkjPAGY65mBbyvhc4gpCylICQU4iSNiSeWQp1iuTYEIWQskqZ8Skn4h90BWXU1qMo1lySZqZY+7LPwkJdlVcAgMkE788nimeveKv1zFrAoTH2e6pi+KYtMpIqcbvzLAV3zh9dlzSQgrlqKlgj7RTsDSrpHDyMFKAnzElRUoJJS6ZQLEsDxOMORL6ByBFdqu8S1EImKkzDTBhJB0ZqgvsSTWBtk2o2JZxO/m1XNJYaydHFCzM/yG/jGflkd8pIDcJcjU4voKRpbEhpKag8IxEUBOtB9ecZpZ/+wsjRJ8z+rRyelcLmf5j2NWJW+Zku2MtrQTukH6fSK7mmhaTKVzKP6tU+OnMDcwZ2tQTNL5BKQ/g/1hDJUQQRQguDsRrHcxebGPpEOoFZT9TGpusFWbbHR9jHIs6UtwvzGfllFtptazhWkOFBw2hyKW1r6NFCp61BsASSWBFKvtrGhcXIoy+RLmLXhlSysipA2yYwRMtK5SsExCkFnZWY+hHONf2fsokS0t8ZDqPWJ3rZET0YFh9lPVJ3B0MKN1aBqMxZmW/eCPxDyjo8/wDido+6tJGhrUR7DGtfUTWuahyfGCrJZyalwBrCqd2nsSA6XUR1P6RnL77WTZ3BL+zQac/TKF06d2O8HYjXtnf4wmzyTyWoaDZ94j2EsQfEdOIczUJ+Sj0aMpZkbVJPm4/ONNLvHuZcwJdxwg/0gJfxIfxhoouMAQ2EaiZp+zTTrZuJdPHL8x4RuLZIShBHLeMH/ptMly8YK+IpSov1Vlv+ohpfvaMqX3UpsTE8RZ257voK9IvxkxrZ5PaHbGxbaIZpnTD3QHAhRwnTk/8ASH8xBtzFVnC0FaVOrFixBOwZm8IuuK7VzZRmTiVLNRLHwBB8WUSK13bnDmx2FYlCUpQTLSwGFhw43wnOoFAx/OOeetKOSKubTpxqLHvA12vvHSiYhOLNZL57AfUiCbpsKbOsK73EluLEQBXpq8WIuKSFACSgJBdIwgiruMi3XmdolfNnBStLIMwJoVkgFtCQMq5NSNr/AFLcFh/iEOPsIB2hsRCUBAaUFOUgUOIkk8gHPnBVlnpQruzmxKeadR1BIPQx5d97gjupowTAHAOoycHUc/NonMtSVNMZDhwlQA8VPHVw5Ue2WDN1RmD7RWCdISUYccpKyqWQapSfutqlj4ERX2StWKQAa92sgjdC+IeFVCNnaJUwkpWqWpKjw0IcHQHF8QHnGQttkRZZ+JOIJmcMwYWSmtFD+7aAdRiBUlRvJibTmDH6GP7Fc8spJUxIVhNcwzpU2xTEJt2SgeBCSdyBu1H+cE3Hawksr8OFYzdGihuUH/idhFd+SJiEAploxCuKoSpJ1pmNXjhMhVrDVfH1j7ijREEnISmYEiWHxO44S2wwn4tQdIFtiZgUqZL+LX7SrChbEc8z41iM+0ImlKlqCVIoWLdC+dQ7g7QfZ7Lh4irEW201LjPrvBPEbHRPMC2NXFNEsyeqasY5gSvEkDEWZks/8yzkz6eZtmvKZMS0uYpCEBKla4l4MJA/kcM3Whgq8JcqYK0JHCoUYj50GUBd4mVNClEKEynCsFIURQkEUDmtDyzMMY8viL6XE8mJEJIO44BlFsmTFFu9AS5U6CkHEXqcNA1aMTQxCzSitSA33qMSpS83PVic9vGJXveElRSh0HM4Bwg4WYsrDhVmQdfWDbossyaDM4hxYuJnqCCczm5o+sTM2hd5ro8hdjY/gTQWRKEyOFRIqXOznOM3ZkPiUc1qz5Zk/LyhhOlmWjuQpyouon7qW1gIzkd4lKslcKRsAHc9T6kwlhxabPc/idMMEBduB+YnvmUZmI4aVPNtG8vlGRnhsh5xvZ0sk83jH3xZ8K1AiujR1enOnYzmZQeZ5YVgypiDVmWnlkFdfu/7YsuqaV2iWD+L6H8oHuhQ7xL5E4T0UMJ9CYNm2YyJyFKoygeeecHYjcRZxtN9PXxNHsqtIqtJBY6EPFUtRBjz7Dzm/WDhPdmPYs/bVbDyj2GfDx/9jM2Z8rTJy9+sSKBBMxBfUpzZvp1iJoQNuTR6OZk7tQ0xD6KxHoniPyhgzoT/ADEZ9YEsGaiRUS1V6jD/AOUPezFk7yckZpljEX1NG9S/hCHWGiPaN9LwZprBdzAJlhCZhQnGX+FJozs7lvCG9kuREtDYiUuSxYgE0bevvaIWSygJLk4yXUkHJQBpm2IJzY84OQkqOIozopQPCRhoQnd2zBascQsSeZ0OITYAAASAHHCGID5VpU5Vi2zy8QIUkgMMlEgseXP6xKSFK4Vh60Lh3102O0QtCwkpKcL1GZzJypzcQNhRkUkycxKno4G2Gin5xRPlOxAAIcOQCSG13GnlFyqhKmAdwavpXVmpHpGZKOIM5GR8dYx3mpm79u9S0lZLLQeFk/DhxMXFACKEVz1BgexzTNkzJahhmpdKgBR8nHL9djGhlATG4FJzJxsKMRhIJcD0pCe/pXcrRNAw4VBOhxYzlw0AB12fxe6TOyMJjKtj3gN0SFzbKuRNAdNAQctiNilQflSF8lH7TIMuaoKUmgWPiSWqk8xXrGqloSklYNFpfx/x8ox6bQFBKZSs5qpi1AaBRKUvzpHd16QGc/8AvpFVN8RfdtqXKmCVMUy0/wANe42r70jXXfb0TJZlrBw/hHxSzqpGpRuMx0rGP7eyWmyzk4UPIOPnCy6b9KUpExyHosfElvpCXU9PvqX9o7jzqyhH+DNh2guKYJQXJUVhLl0qBSpKhUKcu/V+sBXYtYxoVMQkhiFMEhaTVv6gQMy2dYIst7BaCyipKs1IIB/uTkr0POBJli4Ps5kpSkrCpZX9mUjVJxcKh4wshWijffmD6nBksMm9ekaWe8RMlLcMlIYggEkfmRVucJ72sveHAgYEpNVAjOmQBckfSHt3SkpH2ktSyqqinAEvyCSX6kwNb7FLFZKO7Luy1pSl92fF5ZwDHj0OTvXaW2N2QeXze/4gN13C7K7tRDhlHXfOkOl2oI4EB5gFSDwp5k8oXyFd2kp7wlJrgRQc+IgeghTeV+JTwIYn8Ccuqjr41i/DLtvvGcaBEDOAPaNSpzhCnc8Sj94/+o96R0vsvOVOExUxLAuKHy5DzinsshS1hcypbTTlG2krCU9B1itTKSB9JWRFygXwN5l7bc0wg4SlR/lNfIxkr+sqkFpiSC2o8PKNheVqm94VAEDkM4oVJXPSUzBiRSlPTXygoZ08zcTJxI2y8z5lLSyiI095KTNQMRZSkpU/UPp1IhZ2iupUiaRmlTlB3AzB5j8oMs8vEiUoAH7Oo3YlO/IekdCwwDCcx0ItT2jzsvau9kiWr+JKpXVOiucGKQRCEJwFK0LwKQaE1capNcvyjR2O1Im0cJmNVJOfTcRz+q6ck61gCKg7mOhh+yq/CY8hDS3oZVTAz1qTQdG8N9BnAYmEFkhuQp/mCJyAoMVNqHzirugCWcjR49dAwqzKJTMLBhKz340RpOwyT3MxSc1zEy9MmG9PvRn7Mg4JpLsZRY88SVMedPSND/p/MR3CseFhOBViyZSEh45vX/pJ+n5jvSngTdIKnSmYlCVqoCE0dqEPqDzg5EwVRWoFQlmzgCYjiCX40MXIJoSwIxH5bgxbLXUBTvqsOCaajbllR44yDaPND5ygkpSpXxCpGvPcfqIXJlDupksgnCXKkKBc0I2pkDF6bMrEHUgsGU4AJB06Cp6xdNQWUEqao+FqA6MeQB8dYGwo3NKaFSC56UgtwAZ4sg4fEN60i2XNCgMJOZJD1o/toFBQtKgg4SHBdqvm4A2avSKrPO7sBBSlBSwDgkFhmA9DQ58owRN9oXaJawAcQJAJY77nalDnCm/FIMrAFpW/wpKsJfd06Mc28YKCiBjScSa4uINyamj7sPGKrbLlKQolIcIdslVBbPM5tSNrsZDxArIhcySUqoD8JBLgsx+vnA9gukSz+FCajLSvo0Su5EyW32iUyUpHCpPFlnidhppGZ7X9qO8PdSXUgfGoanYHUe+vpAqtiUsLqiJztwx9J72iMufPH2nCgEBtzmemUKFXOhQIl8QTnnQwNZpk1X8OWfI++sPrqRbQhpctIetQPoYWyeITeofS41j0HbST8TLzrvmSlOkqB5ROXfs9FFYVD+YfUR9Lsl3Y5YE3D3gHFhcjl76wn7Qdl5ZQVDzgH9wt6cgB94Q4WUWhImUk9olqICZSSomgDlz0asbG5LinzAFzimUk1woGJXmThHrEuwnZpMlAmLAMxVXP3U6AcyM+rRoLfaCnI5xWXRdYwITCcpFuxlSezdlbixTH/Eo/IMn0gG2dkbJ8SU4CdjTyNHixdpdyKJHPzhB+9F2m0y5btKSsORRzlmNCeHm52gSYcrWQSAOZvKyLWrcniOLMju0kJVibwI/qSaimsK518LJzck5Oz+GkPO0EhkiYDhUC2LNuR/Eg6pjD25EkzCVqw1ZnBAOeZFRWh1BHOL6dfNbSsxKrQjddnXaqhZSpORcgUOwIq+zQXYxbbOoBQ72W7EEuQORNfN4CsNzyDhUZrvlVJPgQlxpG0kzBhADlg0GzZwBpG49xBY8ZvUdj7GZX/UWzBdlxgVSQrm2R+fpGOtlrXLkyk4WUZbv/AClSmasbrttOSLNMFHwke/GMXPlfYyllBUMFWz+I/nG+kby17mLdWPNcTi2TcWIOT0z8OcFi9yCMcvpoR02jrmWnvCA4BNBvybQw6mWVCxUA7cocNd4lVwH/AOQn/qzPP9I6JfuiVt846M6U9JNMHVKS9SMRGpbrlziiYvBQ1PPTTKKSDidYLChzi6UgqBOgcudfGHYuYVd6yskfiSpI6qQQKdSPnDL/AE8nOubJBIUtGJBGeNBenMv6Qqs6+7ZR+6QfUe/OKO9VZ7QFozlrxI5gGngR6GFeoTWK9YzhbTPqV3SxhlrwqLJH8SpIBIdwSCo7s4ByhhZjjRhYB3KK6OSz5hQZ/CApVtlKlonIVglTiCFfhmEgGWoCjhTnetMoJvK0S5QlJQFKW+EYaFq7bVz2jgEMGIInSsMNoVa0gpMwkp04WIJcgfFnn5nlF92JIY14mJYGrirsWpr0LRTZ1kpQ6iQoF0ttmS2RBFesWBRIStICk4WGT4tmYEE+LvlFMJQg1vQkBkpU5URiQSM9wzZGurA8ovtSpSkkFIVQBRNXLUc7sY62oxAysXdu2agc6M1NRiod4FtYwhIQ+JRoQWLAZpDMDT/lAgKhuZIymqj4k4QsOHYv/a7P6QPfFrL92lAOMJAWSaoqSSBkoJCmiVrTixLAw1HG2Eul+FSsiDUeKYTW5CiSiWCFTRhCWqEjNRApWrdSdYLjUE2ZlztMzeOOdNmKVMJl4yUocsBpR2yEL7usKSspBxpGuTKr+Gii2pja2TstMbjWEvoBiLbO7D1iaOzpkSlCXMU5TwugGo6EPWG/7ulI1ewmEwEkEjaR7O2QAmof7w/TSNDPEtCMwnm7B4x10WCdLlBctIExZeYFkpW46pbDC29bVaJisKyEYSKHPrXTwiBFLVq+sZLsFvTNNY7Ye+Ka1zar1zGhgi/S5loJzWB4Qruq8AucEKOMoTRSBhBcClPdIqv28Qiah1B0KcJJqQ23LeMuNTjaa1AIZs5aqQj7RliNnGsF3feCVpcEFxAt4pSXKjXnDQAXzQK2bWKjb0IlzEk1Ulk1q/LntE5lzCXZ8aAVqNXTQjpTSlNoS3ktCpgKF1BFMmP16xqE3slEokqBCUuX95wVsgAFd+YNELMdXbiD2q80qs6UlbLmJcBQFVfCUhhniBjF2mzmXSajiJcpGdcsqg502MML5nd7JlTKhQWsMzMFqcEHQOz61MX2m0LmGUQUia3xqYjhORHQ/KAr5OPU37Side57ce9zMd+U8SEzE1zFB02zh5ZO1FolpCFS3LUUaOG50aLhdc4oWlU1JSsuQABV3cH7vhCK9kKRwKnYygUDkhIbLYbN0g148po0Yv58YsWIb2gvNSpACyMa1OoDRIqPVopty1CXLQM8CQBzKQ484SS5ZUsJfNQDu/J40CMJX3hTmrOmQyp4CCrjCihAu5c2Z1isQSgECrVO5Gue8MpCtaVqNOoiqWkB2NDVmcVq/L/MVTpqZYcs2Y/zGquDuofw8/OOhF+9T+FX+6Oiqk1T1A4QVF9xSITVpBAycMaGK1rYBvZb3XpEV/C2Rybkc4ci1yU1waZDWlQ/+YvveSFyZawzhOBTbpZtPwlPkYCYMBr+vr/iG9xzBMK5KySZiXD/AIkgn1TiHXDAM4OnUO28LjPmr1lfYq/TIUqWtPeSZlZkvmMlpP3VjfVhyb6CLcmXKTOQnvpeIETAlykOHC00UhbEuag8so+SWyUqXNIyY+kaa4bdNlqC5cwpLVrRWwIOfjHO6jGrU8dxuV2n0Gz21KDgWlSCoBiFApqSAKfCC+erGCZq8DmWxArhKsjlUZlOr1zesZNNukrUFzJGGYP/ANJJw+BQrhPSG0m/JCVYhMUgCoSZRoGAIdJyevKEdG1CH1d40lWmaV/aSwyauCSQA4OnTzi62LKVS5g+AFqlmdxrWmWufRsteHa+zold3imlRclUtGBwSfxksKt4QIq8rRNAEpHdIZsSzjXhpSoYer+EQ9Ow3Y0IRXvgR7fd6h+7wpUZjDu2dyVGp0CG3DmsG3VZRLdajimqqpR+Q2SPpGbuG6+7mmYvEpT0xZuevusG9oLyMsJIIcqyzLDVtYYxdKXFJxJqCbvHN63kZacZQpY1wsW6h3gG7b+lTmSCQo6H6EU9YGtF8y5eHE5Ks9WG52ENJBllpgQlR0IYmuxixgUL5l+YbWb8p+J7a5CSOIhn1pCm/bjE6SyFDEkuk9KN0MaMgMOHENn+mR8YHtchKXwgAnaAPi0U68woYONJmBRdM+WtbLTLQBiMzVvGgb1z6VLssuYgrCS9CFr+NW5O23hGmvuzJmSsK6hJfbLX1PlGVvNaJcooluJad8yYJiylx78RXKoQ78QKzXkuUhWFbNT9flBRvxc2Uzuv2KDyjPXfauIpWHQc2059INtt2TJaQtJxS9FJIPqM/YjoqFU0/wARXxHK6k+hnirWe8ZjU7vU84KTaFBCwoEobSoc5PELvWFJYDWtKvz1h2kJRKYiubZ1isrqNqmsKsRdyi5pqF2cS5iwkJJBelSSQoHxI5YQYFskhlrQRiUlTDIhmfxy9mJd13sxAlgFR+PFlXZtQPWNGbDgVkHLl+R15nSE8jhSfU71NFWr2G1xciQmWkrwJCuVH298oxV4LBJYa1PjGtvy1CqPP6Cm0YspLttB+lHLGL5D2h1yWbEt6sActzQfMn+2HirKAXfnk1NQ28CXVKCJK16hJJ5cNOtC/wDdC5V8LIyDgZ78884bA7wJIjpc5MtJD5ZZeUILwnKVMANEkuBl584FE4rU61ZZflDGbLxyqsSmobPofD1EamLuGokFh/7R0BItBYVMdFbyS8yssmA5xXODjL1/WLitiKULj35RValVIDQxcBUEeg39/pErPOUlSVAsQQQRoRX0iJJo9Bvy6Ry/dIksCaLtHZUzpSLRLHxCoGih8SfA5ciDrCq455BwHMDzEM+ytuSCZMwgS5rV/AvJKuhyPUE/DFF73aqVNKgGKT8sx4RzMg0E4zweP4jqHUL7944s88BgUq0o2vy5wfdtzJmzCzlIqR1yT01aF67wSuTLLM1HGaT+HpqNo1/ZAvIKncqOfgITx4zrjKnaKk3Og2paSHdMsJ6YlFQHgBX+aLr7tZkrKUpenQAfWHUxKO/Qo5jXwPm8Zrt4o46KbEnTrDGhXemh7KISsuua3mcAskDjKTrkBE7ysk0S1iWtJxFyVipfn15CMt2Kt4HeylUJUFp30SoeDD1jUzLVVRZsPMVyL+9obGXwF0qOIsi+Nu0xt6CahR7wVyJGVOriv1i6z3hMlhICixrkzPyEV3re+JSsIBD0JDv0Dij0eg6wbY73llOFMo94KsRQ0qzbZxjI+QqCRNYxjDmmmnuK3rMsYqHWpg+fNJ1fV4SXBeaJgIw4VjMe9Hh7IdnZtBzjnurXvH1ZasQK8P4a3/Cczyyj59fEhRlpI1ahUB9d6RubxCppVLyDF+mTRh76ssyTwEkpd0qLaF26wTpwgau8T6sMaPaCXPYSCCpg/MdQ9c2OUTmz54UooLIyIdJSeoNPHSKBOUVkhRoX8KetBFk5C0h61rl7pSHRp1W3eLkMEpe0uslvmUHdoUDkAQzufhLk6E0gz9gnzHelUsASzE7l4XWEzGxkHCDt8thnlvGg7LrMyc8xSsIqkAsKOwKQ2Xj1iZAACVl4ixpW7zSdmroRKCXHGEsdt36x7f6mQo7ejfnBUm0pUSUniDO3PLxMJ7+nhSV1DAh/flHKyAs4M6iqAhEyN7z8KQGJUrMk+sLrPJYFasgCT+XUmnjFiSZisRyyAz9mLLTxLTKT911LIrxZN/a7dSY6eJa8v7zj5D3hFwrxypiVZl38dG0iz92IyZjtCy55/dTSlWR+caabhIB1FdoYIgVig3EmmFTF3/TOI2ux92nNyThAbU0b1hsk8vH84TypvfT8VcCHY7nJ/fKJvIaEFFiXuryjo0Hd8/flHRcmmIkoJdhShERVUsol9tPf5RYgtvQ6/KLStCluaANpR60NIYgNpRORv/g019IpnLDuA41p7b9YKvAh8qs9IEmO3+IqSed6ARw5Rq7rtgtUkS1n7ZIo+cxCR6rSPEpD6GMhMrX6x7ImFJBBKVAgpILEEVBHN2gObEMgo/EJjfSbEPtuOUpQbhVmk6/rG97CW4KswrlTmGp9IzomItstiyZ4FQKCYw+JI0U2aepFKJA7P21VmmKlLoleR2Vv0LDyEJEEbEbj7iOowu+x+0196Xj9oK5Ph5tn6Vhbel4y7QqWtFeIoII216EQsmmYVKxFOF6eTPU0pmIHkWCZKwCYkhphUzioYBxWoi3VKsHeFR3LVW0ledzlK+8lkp/XpvHt32tS0gmYokPwqbRnc/eEalSkLlPq2R0MYr9jUJWJQIZRwkauat4NA1fWtMZtkGNrUcx7YbKlYAWlLNQMG8DlDFN3y5YxFCQNx+kZqTdZCEuVBZNcKiGfRhR4ayrhmKR/FmNsVBn8qeED0gnZpsZdv0yNovCT3wKThwEOsH4q1p4mGh7VIWcMpKlEZkig5knlpAEnsek1K1vkaj8oqvuzokShLQGKj1O5J3ggVLCjmZ1PRJFCOJUpcyWhcuaz/EWzahp6RC/rClcooxOSKcj1iNknYUJQKABnPvxi+zhBWHWCTpvX5QvnTSQy9owlMtNMTdl3krT14gdDtGrsdnRiwgBqBm/OBbxk91PWRk4U3Xbm7x0sOeEjEH4dereLRWRy5B7TGIqtr3jr9llnhYNyGvhGftU9cxRsshOAuXIOSeZHy5wfZpxSDjLj1eOugolFRQggqJKlEufPxi8bhefibyLq4+ZeEGzSBLS6lH4iWc8/CEN/WwCUUJ+OYQ/LeCe099BIABcnIQmscst3s1uKqEnV8if5dhq22Z8eMt5zAZswUaB6TyRLMtAUaLI4R+FJ+/1Om2e0B3LL+0Wdhl7NIZWMqKiVKcua1DnnFMvCmdMANKHxYfKHUWpzHNmL71kMcQDP1pDO4rbiSx+IU98ojaJ8vJRD+6wEkIQRMSttCGJflSNzPB2jO8LemWQlVSdP5fmH5wLJvGUGALcgGaAbTaJS1FSsQOQcaCIlUhmDnwMSpRMfotaWFf8AjHsZzAjZfvxjyJKl86c+QYZgbmtYqE1zECtTAF2FQ43+kQHSGIKFI2B6RxSAMxHklXKJq8YkkoWmnz6xTBChmDFS0ViSAzpcwhiCQxcMciMiGyI3h7Kt0u1JwTyETtJuSV/1/gV/NkdWzKB4mZhJclzq8CfGGhUcrxGFpM6zqwrchNB025jaGkrtJLVJQiYnEUUYv4VhTZLzUE93MT3kvRJLFP8AQpuHpUctYnOutEzikKxboIwrH9v3hzSTCr4uzj5EZTOym1+8Yy76laqW2eEV8HBrE5d4GasKKCEJHCkByObB/P1jLTLKtB2Ii6RbSkjEHY5gsfCMHp05XeaPUO2x2mwstqQpaDqFAH5V0eNlMZILNTm3v/MfKJ17FQqovoVAEjxqY1d3Xii0yklS8JQCmYkUoRRVK4X+sA8EoL7QuPICajuTeNSPw1fQ55Rmb5LTu8mBRJpKQNtCdq6RfPVaUfaICSAlsJANRrmPJ4nIvSarApUkLSQaooARocVB0J2il8p1D8xkkMNJ2+JfZLpnTpY7yZg/CnC1NyxfF7IidnuBFnUJi5qiU1c6Nl1iUy12whREtEpADupyQNyABWsI+0SpiZTz1nvC5TVwwURQMA/wqBzYnaLBZ/LYo+kwxRd6JI9Y5JM8lSd2GJgQNC5ypXcPCC/rIJRJMwY3+5knlizJ8IBXfSjRCW5kuYHmWaZNOJSn97RrHiKHzbCKO+riQ/fs7LEFD+YP65x37znqNFFP9I+uY6xd+7AgYpiggZjFmRyTmrrlzidktDlpSSgarNVnpoj+2vOGQiHdQIPxHGxYz2w3eUqeYMS6cKqtzV9E660oT7eXWEkuEh+qjq/l6xfYpOF6bF9efjCG1qmrmLIJAJLBtHp6QQCYYxhPtZloKkoKtDsnr1/OESrSpjUuokkwzkImJScSyXDN1pnAM+S23zjUwbMGsUrGsDzh1aLOMGFm9+/KFl0UnCNKpGg+UQyATNiz1iSpYAyrpDGdJAzpzA9+zFIlhQ3/AE9YomSoD3f8w9fyjoPwf1ev5x0VYki7Hn15v57R6FBmwhvXrFaUxeSKMDkH6wzBcTpKT5xcAxiMpSqAUrEwgk/P3lFzNTyYmK8G5izC+p6tHID6xJcHakdBDNmd/OIlGh9YkkHMev6VBiakN0MQbzipAYdKvRZAEwCcnTvHKh0WDiHRyOUXNZpgzVKVsoY0/wC5Axf8YVERzwJsan2hQ5Eam5Av+GtC/wClaSf9tFeYitN12mQrGlK0ka4SH5VoRyhfi3Eey7VMR8C1J/pUU/IwPw27H95vWO4mqsfa8pThnSMsymn/ABOUEp7XWYoUju5gCqFgHbqFQisF5rMv+NNxavMWfR8mim0XjPH/AOswPstX0LtAD0yE3X3hx1Lgcx1Mv5awUyRa1voTSvNlKblCa1WCYpWKcUo/rWB/3nEr1MCz7RNV8UxahsVq+piCUZApHk3ygi4gvG0G2UtzCyiSjNZmHQS0lvFSmbwBjlXmsfw0iWN/iV/uIYdUgQPLlvy9+sRtBYERoIO8xrMHmzFTFMSSScyXPiTD67LMEg0ZwM6UhRdMlyVHpGhsgqWc82/SCTIlquEEsH0I3flC2ZaEoYAYlxdfWJSQlO7ncQvRZWA1PP66xU0ZdIW5JWRiPukUW9gIuYpd29/OA7a4oSPKJMyi7P4wo/TzjShVPL36Rl7CtpqT19QY00ouHr11iGQSNtWEglvQiFUmalILnpv5Q6tMlKkkE59fCABYUpDNnGLmqgX7UvYeX6R0HdyNh6/nHRraZn//2Q==">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Saai
+                                                    Restaurant</div>
+                                                <div class="food-items"
+                                                    title="daal bati">
+                                                    Daal Baati
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">25% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="data:image/jpeg;base64,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">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Dominos</div>
+                                                <div class="food-items"
+                                                    title="Pizza,Burger,Desserts,Cold-Drinks,Sandwich">
+                                                    Pizza, Burger, Desserts,
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">50% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIgw9jhDa4_P31GhXYMzJjgH8I3OqbgGNvbQ&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Shipra Dhaba</div>
+                                                <div class="food-items"
+                                                    title="Daal, Paneer, Sev
+                                                    Tamatar, Roti">
+                                                    Thali System (Daal, Paneer,
+                                                    Sev Tamatar, Roti)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>48 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.200 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">50% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCKZC6BD_c0vasIBgyZ21Bcj4iMsTdQPbieQ&usqp=CAU">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Meghdoot</div>
+                                                <div class="food-items"
+                                                    title="Kadhai Paneer">
+                                                    Kadhai Paneer
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>38 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.180 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">30% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="place">
+                                <a href="" class="place-link">
+                                    <div class="list-item">
+                                        <div class="item-content">
+                                            <div class="top-img">
+                                                <img class="_2tuBw _12_oN"
+                                                    alt="Galaxy Food Court"
+                                                    width="254" height="160"
+                                                    src="data:image/jpeg;base64,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">
+                                            </div>
+                                            <div class="status" style="
+                                                background: rgb(58, 60, 65);
+                                                color: rgb(255, 255, 255);
+                                                border-color:rgb(30, 32, 35)
+                                                transparent;">
+                                                <div class="status-title">Promoted</div>
+                                            </div>
+                                            <div class="place-name-div">
+                                                <div class="name">Circle Cafe</div>
+                                                <div class="food-items"
+                                                    title="Pizza,Burger,Desserts,Cold-Drinks,Sandwich">
+                                                    Pizza, Burger, Desserts,
+                                                    Cold-Drinks, Sandwich
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info-div">
+                                            <div class="rating">
+                                                <span class="icon-star"><i
+                                                        class="fa-solid
+                                                        fa-star"></i></span>
+                                                <span>3.8</span>
+                                            </div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div>25 MINS</div>
+                                            <div class="circle-icon"><i
+                                                    class="fa-solid fa-circle"></i></div>
+                                            <div class="price">Rs.120 FOR ONE</div>
+                                        </div>
+                                        <div class="offer-div">
+                                            <span class="icon-offer-filled"><i
+                                                    class="fa-solid fa-tag"></i>
+                                            </span>
+                                            <span class="offer-text">40% off |
+                                                Use WELCOME12</span>
+                                        </div>
+                                        <div class="quick-view">
+                                            <span class="view-btn">Quick View</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!---Footer section--->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="points">COMPANY
+                        <ul class="footer-ul">
+                            <li class="footer-li"><a href="#">About Us</a></li>
+                            <li class="footer-li"><a href="#">Team</a></li>
+                            <li class="footer-li"><a href="#">Careers</a></li>
+                            <li class="footer-li"><a href="#">Swiggy Blog</a></li>
+                            <li class="footer-li"><a href="#">Bug Bounty</a></li>
+                            <li class="footer-li"><a href="#">Swiggy Super</a></li>
+                            <li class="footer-li"><a href="#">Swiggy Corporate</a></li>
+                            <li class="footer-li"><a href="#">Swiggy Instamart</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="points">CONTACT
+                        <ul class="footer-ul">
+                            <li class="footer-li"><a href="#">Help & Support</a></li>
+                            <li class="footer-li"><a href="#">Partner with us</a></li>
+                            <li class="footer-li"><a href="#">Ride with us</a></li>
+                        </ul>
+                    </div>
+                    <div class="points">LEGAL
+                        <ul class="footer-ul">
+                            <li class="footer-li"><a href="#">Terms & Condition</a></li>
+                            <li class="footer-li"><a href="#">Refund &
+                                    Cancelation</a></li>
+                            <li class="footer-li"><a href="#">Privacy Policy</a></li>
+                            <li class="footer-li"><a href="#">Cookie Policy</a></li>
+                            <li class="footer-li"><a href="#">Offer Terms</a></li>
+                            <li class="footer-li"><a href="#">Fraud</a></li>
+                            <li class="footer-li"><a href="#">Swiggy Instamart</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="points">
+                        <div class="_1Jvc1"><a
+                                href="https://itunes.apple.com/in/app/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"
+                                rel="nofollow noopener" alt=""
+                                target="_blank"
+                                class="AppDownloadLinks_appLink__3lQqz"
+                                data-testid="ios-appstore"><img alt=""
+                                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"></a><a
+                                href="https://play.google.com/store/apps/details?id=in.swiggy.android&amp;referrer=utm_source%3Dswiggy%26utm_medium%3Dheader"
+                                rel="nofollow noopener" alt=""
+                                target="_blank"
+                                class="AppDownloadLinks_appLink__3lQqz"
+                                data-testid="android-playstore">
+                                <img alt=""
+                                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>
